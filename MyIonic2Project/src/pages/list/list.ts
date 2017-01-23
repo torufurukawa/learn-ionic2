@@ -19,10 +19,10 @@ export class ListPage {
     this.selectedItem = navParams.get('item');
 
     this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
-    'american-football', 'boat', 'bluetooth', 'build'];
+    'american-football', 'boat', 'bluetooth', 'build', 'baseball'];
 
     this.items = [];
-    for(let i = 1; i < 11; i++) {
+    for(let i = 1; i < 12; i++) {
       this.items.push({
         title: 'Item ' + i,
         note: 'This is item #' + i,
